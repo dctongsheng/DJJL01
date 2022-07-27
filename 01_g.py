@@ -67,7 +67,7 @@ choose_l = weizhi+diyu+zhandui+label01+label02
 
 st.write('你当前的选择为:\n', "+".join(choose_l))
 
-data=pd.read_excel("data_.xlsx")
+data=pd.read_csv("data_.csv")
 def panduan_cf(li01,li02):
     return [i for i in li02 if i in li01]
 def jisuan(data):
