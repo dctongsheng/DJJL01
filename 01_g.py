@@ -93,8 +93,8 @@ else:
 
 middle_picture, right_picture = st.columns(2)
 
-image_ssp = Image.open('./刷碎片.png')
-image_sc = Image.open('./英雄擅长汇总.png')
+image_ssp = Image.open('刷碎片.png')
+image_sc = Image.open('英雄擅长汇总.png')
 with middle_picture:
     if st.button("各英雄碎片出处"):
         st.image(image_ssp, caption='各英雄碎片出处')
