@@ -82,7 +82,7 @@ def jisuan(data):
     data["推荐词条"] = fina01
     data["num"] = fina02
     data.sort_values("num", ascending=False, inplace=True)
-    return data.head(3)
+    return data.head(10)
 
 if st.button('计算一下'):
     finall_data= jisuan(data)
